@@ -1,0 +1,1310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<travelSightbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="travelSight.xsd">
+    <about>
+        <title>M &amp; T Travel Factory</title>
+        <author>Meg Wang</author>
+        <description>
+            <p>Why we travel</p>
+                <p>For us, travelling is one of our favorite hobbies. It is a time to relax and enjoy our stay in a environment different to what we have back at home. Travelling allows us to meet new people, new adventures, new food and new experiences. We travel to see what the world is like beyond our living room, classrooms and reading rooms.</p>                
+                <p>We travel so we can lose ourselves in a world that we are trying to understand and find ourselves at the same time. Through travelling, we learn to open our eyes and immerse ourselves in a world that we have only seen through pictures and movies. We spend our money travelling but get richer in the process.</p>
+            <p>By T</p>
+            <ul>
+                <li>NO.1 Maldives</li>
+                <li>NO.2 Paris</li>
+                <li>NO.3 Venice</li>
+                <li>NO.4 Helsinki</li>
+                <li>NO.5 Taiwan</li>
+                <li>NO.6 Greece</li>
+                <li>NO.7 Sydney</li>
+                <li>NO.8 Cuba</li>
+                <li>NO.9 Barcelona</li>
+                <li>NO.10 London</li>
+                <li>NO.11 Maui</li>
+                <li>NO.12 Prague</li>
+                <li>NO.13 Vancouver</li>
+                <li>NO.14 Budapest</li>
+                <li>NO.15 Hong Kong</li>
+            </ul>
+        </description>
+    </about>
+
+    <sourceDefs>
+        <sourceDef id="s01">
+            <title>visitMaldives</title>
+            <description>
+                <p>official website</p>
+            </description>
+            <url>http://www.visitmaldives.com/en</url>
+        </sourceDef>
+        <sourceDef id="s02">
+            <title>gogobot</title>
+            <description>
+                <p>official website</p>
+            </description>
+            <url>www.gogobot.com</url>
+        </sourceDef>
+        <sourceDef id="s03">
+            <title>Lonely Planet</title>
+            <description>
+                <p>official website</p>
+            </description>
+            <url>www.lonelyplanet.com/france</url>
+        </sourceDef>
+        <sourceDef id="s04">
+            <title>Lonely Planet</title>
+            <description>
+                <p>official website</p>
+            </description>
+            <url>www.lonelyplanet.com/helsinki</url>
+        </sourceDef>
+        <sourceDef id="s05">
+            <title>Lonely Planet</title>
+            <description>
+                <p>official website</p>
+            </description>
+            <url>www.lonelyplanet.com/</url>
+        </sourceDef>
+        <sourceDef id="s06">
+            <title>Lonely Planet</title>
+            <description>
+                <p>official website</p>
+            </description>
+            <url>www.lonelyplanet.com/greece</url>
+        </sourceDef>
+        <sourceDef id="s07">
+            <title>Lonely Planet</title>
+            <description>
+                <p>official website</p>
+            </description>
+            <url>www.lonelyplanet.com/australia</url>
+        </sourceDef>
+        <sourceDef id="s08">
+            <title>Lonely Planet</title>
+            <description>
+                <p>official website</p>
+            </description>
+            <url>www.lonelyplanet.com/cuba</url>
+        </sourceDef>
+        <sourceDef id="s09">
+            <title>Lonely Planet</title>
+            <description>
+                <p>official website</p>
+            </description>
+            <url>www.lonelyplanet.com/barcelona</url>
+        </sourceDef>
+        <sourceDef id="s10">
+            <title>Lonely Planet</title>
+            <description>
+                <p>official website</p>
+            </description>
+            <url>www.lonelyplanet.com/london</url>
+        </sourceDef>
+        <sourceDef id="s11">
+            <title>Lonely Planet</title>
+            <description>
+                <p>official website</p>
+            </description>
+            <url>www.lonelyplanet.com/</url>
+        </sourceDef>
+        <sourceDef id="s12">
+            <title>Lonely Planet</title>
+            <description>
+                <p>official website</p>
+            </description>
+            <url>www.lonelyplanet.com/prague</url>
+        </sourceDef>
+        <sourceDef id="s13">
+            <title>Lonely Planet</title>
+            <description>
+                <p>official website</p>
+            </description>
+            <url>www.lonelyplanet.com/vancouver</url>
+        </sourceDef>
+        <sourceDef id="s14">
+            <title>Lonely Planet</title>
+            <description>
+                <p>official website</p>
+            </description>
+            <url>www.lonelyplanet.com/budapest</url>
+        </sourceDef>
+        <sourceDef id="s15">
+            <title>Lonely Planet</title>
+            <description>
+                <p>official website</p>
+            </description>
+            <url>www.lonelyplanet.com/hongkong</url>
+        </sourceDef>
+    </sourceDefs>
+
+    <travelSights>
+        <travelSight id="site1" rank="1" tag="natural sight, diving, fishing, beach">
+            <title>Maldives</title>
+            <description>                
+                <p><b>Welcome to the <u>Maldives!</u></b></p>
+                <ul>
+                    <li>Where <i>sands</i> are white as the smiles of the locals</li>
+                    <li>Where <i>fish</i> swim happily in the warm waters of the Indian Ocean</li>
+                    <li>Where the <i>weather</i> is a dream, and the deep rays of the sun waits to engulf
+                        you in their arms</li>
+                </ul>
+                <p>For more information, please look into <pubMentioned>"Lonely Planet"</pubMentioned> 
+                    <xref id="x01" type="web" dest="http://www.lonelyplanet.com/search?q=maldives">
+                    <xrefText> (<hotText>http://www.lonelyplanet.com/search?q=maldives</hotText>) </xrefText>
+                </xref>
+                </p>
+            </description>
+            <sources>
+                <sourceRefId>s01</sourceRefId>
+                <sourceRefId>s02</sourceRefId>
+            </sources>
+            <location country="Republic of Maldives"/>
+            <pictures>
+                <picture path="maldives1.jpg"/>
+            </pictures>
+            <review id="r1">
+                <p><b>Jelly</b>: What an amazing place. Be sure to be at the summit before the
+                    sunrise. It's like seeing a sci-fi movie come to life. Recommended for: Outdoor
+                    Enthusiasts</p>
+            </review>
+            <review id="r16">
+                <p><b>Young</b>: Must see sunrise place. Worth the time to go there, be ready for
+                    the cold though. Pack up some warm clothes. Recommended for: Backpackers History
+                    Buffs Adventure Travelers</p>
+            </review>
+            <highLight>
+                <p>The Maldives is the perfect destination for the most ardent of divers or for the
+                    first time snorkeller with a huge range of marine biodiversity and exceptional
+                    visibility </p>
+             </highLight>
+            <highLight>
+                <p>You won't find a single echoey corridor anywhere in the Maldives</p>
+            </highLight>
+
+
+            <thingsToDo>
+                <thingToDo>
+                    <title>Outdoor Sports</title>
+                    <telephone>206-777-7777</telephone>
+                </thingToDo>
+                <thingToDo>
+                    <title>Fish Market</title>
+                    <address>Boduthankurufaanu Magu, Malé, Maldives </address>
+                </thingToDo>
+                <thingToDo>
+                    <title>National Museum</title>
+                    <address>Chandhanee Magu, Malé, Maldives</address>
+                    <openHours>10am-5pm Sun-Thu</openHours>
+                </thingToDo>
+            </thingsToDo>
+            <associations>
+                <siteRefId>site5</siteRefId>
+                <siteRefId>site8</siteRefId>
+                <siteRefId>site11</siteRefId>
+            </associations>
+        </travelSight>
+
+        <travelSight id="site2" rank="2" tag="Romantic, Historical, Literatural">
+            <title>Paris</title>
+            <description>
+                <p> France seduces travellers with its unfalteringly familiar culture, woven around
+                    cafe terraces, village-square markets and lace-curtained bistros with their plat
+                    du jour chalked on the board. </p>
+            </description>
+            <sources>
+                <sourceRefId>s03</sourceRefId>
+            </sources>
+            <location country="France"/>
+            <pictures>
+                <picture path="paris1.jpg"/>
+            </pictures>
+
+            <review id="r2">
+                <p> France has been home for two decades yet I can’t shake off that uncanny feeling
+                    I’m on holiday – French art de vivre (art of living) is just too good and I’m
+                    mad about it. From my Haute-Savoie house on Lake Geneva’s southern shore, the
+                    dark green hills of the Jura and un café in the wisteria-draped village bar are
+                    my wake-up call. Weekends of endless possibilities punctuate the gentle rhythm
+                    of village life: ravishing art museums in Lyon and Paris, hiking and skiing in
+                    the Alps, paddle boarding on the glittering lake, road trips to Beaujolais and
+                    Burgundy and other regions so different they could be another country. France’s
+                    sheer variety never ceases to amaze me. </p>
+            </review>
+
+
+            <highLight>
+                <p> Outdoor Action </p>
+                <p> And then there is the terroir (land) and the varied journey it weaves from
+                    northern France's cliffs and sand dunes to the piercing blue sea of the French
+                    Riviera and Corsica's green oak forests. Outdoor action is what France's lyrical
+                    landscape demands – and there's something for everybody. Whether you end up
+                    walking barefoot across wave-rippled sand to Mont St-Michel, riding a cable car
+                    to glacial panoramas above Chamonix, or cartwheeling down Europe's highest sand
+                    dune, France does not disappoint. Its great outdoors is thrilling, with endless
+                    opportunities and the next adventure begging to be had. Allez! </p>
+            </highLight>
+            <highLight>
+                <p> Art de Vivre </p>
+                <p> The rhythm of daily life – dictated by the seasons in the depths of la France
+                    profonde (rural France) – exudes an intimacy that gets under your skin. Don’t
+                    resist. Rather, live the French lifestyle. Embrace the luxury of simple,
+                    everyday rituals being transformed into unforgettable moments, be it a coffee
+                    and croissant in the Parisian cafe where Sartre and Simone de Beauvoir met to
+                    philosophise, a stroll through the lily-clad gardens Monet painted, or a walk on
+                    a beach in Brittany scented with the subtle infusion of language, music and
+                    mythology brought by 5th-century Celtic invaders. </p>
+            </highLight>
+            <highLight>
+                <p> Gastronomy </p>
+                <p> Food is of enormous importance to the French, and each region has its own
+                    specialities alongside French classics. The daily culinary agenda takes no
+                    prisoners: breakfasting on warm croissants from the boulangerie, stopping off at
+                    Parisian bistros, and shopping at the market are all second nature to the French
+                    – and it really would rude to refuse. But French gastronomy goes far deeper than
+                    just eating exceedingly well. Its experiential nature means there is always
+                    something tasty to observe, learn and try, wherever you are – be it flipping
+                    crepes in Brittany or chinking Champagne flutes in ancient Reims cellars, the
+                    culinary opportunities are endless. </p>
+            </highLight>
+
+            <thingsToDo>
+                <thingToDo>
+                    <title>Eiffel Towl</title>
+                    <telephone> +33 892701239 </telephone>
+                    <address> Champ de Mars, 5 av Anatole France, 7e </address>
+                    <gettingThere> Metro: Bir Hakeim Train: Champ de Mars-Tour Eiffel </gettingThere>
+                    <moreInfo> www.tour-eiffel.fr </moreInfo>
+                </thingToDo>
+                <thingToDo>
+                    <title> Cathedrale Notre Dame </title>
+                    <telephone/>
+                    <address> Place Notre Dame,Amiens,France </address>
+                    <gettingThere/>
+                    <openHours> cathedral 8.30am-6.15pm daily, north tower afternoon only Wed-Mon
+                    </openHours>
+                </thingToDo>
+            </thingsToDo>
+            <associations>
+                <siteRefId>site9</siteRefId>
+                <siteRefId>site12</siteRefId>
+                <siteRefId>site14</siteRefId>
+            </associations>
+        </travelSight>
+
+        <travelSight id="site3" rank="3" tag="Historical; Lifestype ">
+            <title>Venice</title>
+            <description>
+                <p> Imagine the audacity of building a city of marble palaces on a lagoon – and that
+                    was only the start. </p>
+            </description>
+            <sources>
+                <sourceRefId>s04</sourceRefId>
+            </sources>
+            <location country="Italy"/>
+            <pictures>
+                <picture path="venice1.jpg"/>
+            </pictures>
+
+            <review id="r3">
+                <p> Why I Love Venice </p>
+                <p> <p>By Cristian Bonetto, Writer: </p>Venice is the consummate magician. It makes marble
+                    palaces vanish into silent fogs, labyrinthine calli (streets) disappear at the
+                    whim of moody tides, and can even turn the most pedestrian of people into
+                    fantastical, masked creatures. Just like its world-famous Carnevale, Venice
+                    thrives on mystery and awe, from the secret passageways that riddle Gothic
+                    Palazzo Ducale, to the esoteric powers of the Basilica di Santa Maria della
+                    Salute, to the inexplicable radiance of Titian's Assunta altarpiece. After
+                    countless sojourns, I am yet to tire of the place. Some spells are simply too
+                    hard to break. </p>
+            </review>
+
+
+            <highLight>
+                <p> Venetian Feasts </p>
+                <p> Garden islands and lagoon aquaculture yield speciality produce and seafood you
+                    won’t find elsewhere – all highlighted in inventive Venetian cuisine, with
+                    tantalising traces of ancient spice routes. The city knows how to put on a royal
+                    spread, as France’s King Henry III once found out when faced with 1200 dishes
+                    and 200 bonbons. Today such feasts are available in miniature at happy hour,
+                    when bars mount lavish spreads of cicheti (Venetian tapas). Save room and time
+                    for a proper sit-down Venetian meal, with lagoon seafood to match views at
+                    canalside bistros and toasts with Veneto’s signature bubbly, prosecco. </p>
+            </highLight>
+            <highLight>
+                <p> Historic Firsts </p>
+                <p> The city built on water was never afraid to attempt the impossible. When plague
+                    struck, Venice consulted its brain trust of Mediterranean doctors, who
+                    recommended a precaution that has saved untold lives since: quarantine. Under
+                    attack by Genovese rivals, Venice’s Arsenale shipyards innovated the assembly
+                    line, producing a new warship every day to defeat Genoa. After Genoa backed
+                    Christopher Columbus' venture to the New World, Venice's shipping fortunes began
+                    to fade – but Venice wasn't about to relinquish the world stage, going on to
+                    become the launching pad for baroque music and modern opera. </p>
+            </highLight>
+
+            <thingsToDo>
+                <thingToDo>
+                    <title> Palazzo Ducale </title>
+                    <address> Piazzetta San Marco 52, Venice, Italy </address>
+                    <gettingThere> Ferry:San Zaccaria </gettingThere>
+                    <moreInfo>www.palazzoducale.visitmuve.it</moreInfo>
+                </thingToDo>
+            </thingsToDo>
+            <associations>
+                <siteRefId>site6</siteRefId>
+                <siteRefId>site9</siteRefId>
+                <siteRefId>site12</siteRefId>
+            </associations>
+        </travelSight>
+
+        <travelSight id="site4" rank="4" tag="Natural; Greens; Snow; Wildlife">
+            <title>Helsinki</title>
+            <description>
+                <p> It’s fitting that harbourside Helsinki, capital of a country with such watery
+                    geography, melds so graciously into the Baltic. Half the city seems liquid, and
+                    the writhings of the complex coastline include any number of bays, inlets and
+                    islands. </p>
+                <p> Though Helsinki can seem a younger sibling to other Scandinavian capitals, it’s
+                    the one that went to art school, scorns pop music and works in a cutting-edge
+                    studio. The design scene here is legendary, whether you're browsing showroom
+                    brands or taking the backstreet hipster trail. The city's gourmet side is also
+                    flourishing, with new gastro eateries offering locally sourced tasting menus
+                    popping up at dizzying speed. </p>
+                <p> Nevertheless, much of what is lovable in Helsinki is older. Its understated yet
+                    glorious art-nouveau buildings, the spacious elegance of its centenarian cafes,
+                    dozens of museums carefully preserving Finnish heritage, restaurants that have
+                    changed neither menu nor furnishings since the 1930s: all part of the city’s
+                    quirky charm. </p>
+            </description>
+            <sources>
+                <sourceRefId>s05</sourceRefId>
+            </sources>
+            <location country="Finland"/>
+            <pictures>
+                <picture path="finland1.jpg"/>
+            </pictures>
+
+            <review id="r4">
+                <p> By Andy Symington, Writer: </p>
+                <p> My first impression of Finland was a winter one, when snow-hushed forests and
+                    Christmastime conviviality made an instant impact. You must come back in summer,
+                    everyone said, so I did, for midnight daytime saunas by impossibly picturesque
+                    lakes and melt-in-the-mouth fresh berries and potatoes. Fresh air, the Lapland
+                    wilderness, the hiking, the wildlife: it's a natural wonderland within an
+                    impressively technological modern nation. The real bonus? The Finns, who do
+                    their own thing and are much the better for it. Independent, loyal and welcoming
+                    – memorable people in an inspirational country. Make it your business to get to
+                    know some. </p>
+            </review>
+
+
+            <highLight>
+                <p> City Lights </p>
+                <p> Don’t get the idea that the country’s just a backwoods emptiness, though.
+                    Vibrant cities stock the southern parts, headed by the capital, Helsinki, a
+                    cutting-edge urban space with world-famous design and music scenes. Embraced by
+                    the Baltic, it’s an enticing ensemble of modern and stately architecture, island
+                    restaurants, and stylish and quirky bars. And complaints about Finnish food are
+                    so last century: the ‘new Suomi’ restaurant scene is kicking, with locally
+                    foraged flavours to the fore. </p>
+            </highLight>
+            <highLight>
+                <p> Call of the Wild </p>
+                <p> The Finland you encounter will depend on the season of your visit, but whatever
+                    the month, the call of the wilderness is a siren song not to be resisted.
+                    There’s something pure in the Finnish air and spirit that’s really vital and
+                    exciting; it’s an invitation to get out and active year-round. With vast tracts
+                    of forest, speckled by picture-perfect lakes as if an artist had flicked a blue
+                    paintbrush at the map, Suomi offers some of Europe’s best hiking, kayaking and
+                    canoeing. A fabulous network of national parks has well-marked routes and
+                    regularly spaced huts for overnighting. Bears and elk deep in the forests can be
+                    observed on nature-watching trips. </p>
+            </highLight>
+            <highLight>
+                <p> Summer Days </p>
+                <p> Finland’s short but reliable sunny season sees the country burst into life.
+                    Finns seem to want to suck every last golden drop out of the summer in the hope
+                    that it will last them through the long dark winter months, and there’s an
+                    explosion of good cheer and optimism. It’s a time for music festivals, art
+                    exhibitions, lake cruises, midnight sunshine on convivial beer terraces, lazy
+                    days at remote waterside cottages and mouth-watering market produce. </p>
+            </highLight>
+
+            <thingsToDo>
+                <thingToDo>
+                    <title>Temppeliaukion Kirkko</title>
+                    <address> Lutherinkato 3, Helsinki, Finland </address>
+                    <moreInfo>www.helsinginseurakunnat.fi</moreInfo>
+                    <openHours> 10am-5.45pm Mon-Sat, 11.45am-5.45pm Sun Jun-Aug, to 5pm Sep-May
+                    </openHours>
+                </thingToDo>
+                <thingToDo>
+                    <title> Ateneum </title>
+                    <address> Kaivokatu 2 </address>
+                    <openHours> 10am-6pm Tue, Fri, 9am-8pm Wed,Thu, 10am-5pm Sat,Sun </openHours>
+                </thingToDo>
+            </thingsToDo>
+            <associations>
+                <siteRefId>site8</siteRefId>
+                <siteRefId>site9</siteRefId>
+            </associations>
+        </travelSight>
+
+        <travelSight id="site5" rank="5" tag="Food, Nature, Life, Adventure, Tradition">
+            <title>Taiwan</title>
+            <description>
+                <p> With its all-around adventure landscape, heritage-rich capital, diverse folk
+                    traditions and feted night market scene, Taiwan offers a continent-sized travel
+                    list for one green island. </p>
+            </description>
+            <sources>
+                <sourceRefId>s06</sourceRefId>
+            </sources>
+            <location country="China"/>
+            <pictures>
+                <picture path="taiwan1.jpg"/>
+            </pictures>
+
+            <review id="r5">
+                <p> By Robert Kelly, Writer: </p>
+                <p> I have been living in Taiwan for the past 17 years and when I wake up in the
+                    morning I still wonder how I can possibly find time for all the new passions
+                    I've developed here: go cycle or hike in the lush mountains in my Taipei
+                    neighbourhood? Visit a traditional temple and study historical allusions in yet
+                    another sculptured masterpiece? Try a new strain of organic tea or single-origin
+                    coffee? Improve my Mandarin? Or just catch the latest mass rally downtown of
+                    locals trying to make this a better place? I love that Taiwan gives me the
+                    freedom to go anywhere, do anything, and that no matter what I delve into, I'm
+                    always rewarded for going deeper. </p>
+            </review>
+
+
+            <highLight>
+                <p> Asian Values On Their Terms </p>
+                <p> Defying those who said it wasn't in their DNA, the Taiwanese have created Asia's
+                    most vibrant democracy, and liberal society, with a raucous free press, gender
+                    equality and respect for human rights and increasingly animal rights as well.
+                    The ancestors are still worshipped, and mum and dad still get their dues, but
+                    woe befall the politician who thinks it's the people who must pander, and not
+                    him. If you want to catch a glimpse of the people's passion for protest, check
+                    out Taipei Main Station on most weekends, or just follow the local news. </p>
+            </highLight>
+
+            <thingsToDo>
+                <thingToDo>
+                    <title>Miaokou Night Market</title>
+                    <address>Keelung Taiwan</address>
+                    <openHours>hours vary</openHours>
+                </thingToDo>
+            </thingsToDo>
+            <associations>
+                <siteRefId>site15</siteRefId>
+            </associations>
+        </travelSight>
+        <travelSight id="site6" rank="6" tag="Socially Spirited; Natural; Cultural; Lifestyle">
+            <title>Greece</title>
+            <description>
+                <p> Socially Spirited </p>
+                <p> Greeks are truly social beings. Their families are extended and they are quick
+                    to welcome in newcomers, whether for a coffee, a shot of ouzo, a chorus on the
+                    bouzouki or a heated debate. Greeks are passionate, if nothing else, and this
+                    passion continues to drive society forward despite the current economic turmoil.
+                    Life is lived to the fullest, even at the most difficult of times, and herein
+                    lies the secret of how a country, seemingly riddled with challenges, is full of
+                    people who remain so in love with life. </p>
+            </description>
+            <sources>
+                <sourceRefId>s01</sourceRefId>
+            </sources>
+            <location country="Greece"/>
+            <pictures>
+                <picture path="greece1.jpg"/>
+            </pictures>
+
+            <review id="r6">
+                <p> By Korina Miller, Writer: </p>
+                <p> I first visited Greece as an 18-year-old, sleeping on the decks of slow-moving
+                    ferries, living on olives and feta, and constantly salt-crusted from swimming in
+                    the deep blue Aegean. But it was a starlit performance at the 3rd-century BC
+                    Theatre of Epidavros that sealed my love of the country. Watching the ancient
+                    Greek drama unfold before me as I sat on stone seats worn smooth by thousands of
+                    years of use, I felt caught in a moment that seemed to sidestep time. I love
+                    Greece because magical moments like that one aren’t so hard to find here. </p>
+            </review>
+
+
+            <highLight>
+                <p> Naturally Inviting </p>
+                <p> It’s easy to understand how so many myths of gods and giants originated in this
+                    vast and varied landscape, with wide open skies and a sea speckled with islands,
+                    where days melt from one to the next while you relish the white-sand and
+                    palm-fringed beaches. Greece is a magnet for anyone who enjoys the great
+                    outdoors. Wander along cobbled, Byzantine footpaths, hike into volcanoes, watch
+                    for dolphins and sea turtles, and cycle through lush forests. Discover
+                    world-class kitesurfing, diving and rock-climbing locations or simply hop on a
+                    boat and set sail into the glittering blue beyond. </p>
+            </highLight>
+            <highLight>
+                <p> Sumptuous Feasting </p>
+                <p> Greeks pride themselves on their cuisine and will go out of their way to ensure
+                    you are well fed. The tang of homemade tzatziki and the aroma of souvlaki
+                    grilling are just the beginning. Taste test your way through regional cheeses –
+                    from crumbling feta to honeyed soft cheeses and sharp, hard rounds. Dig into
+                    rich layers of mousakas and sip crisp wine from grapes ripened under the hot
+                    Mediterranean sun. The Italian legacy of pasta is paired with Greek specialties
+                    like lobster, while Turkish spices find their way into delicate sweets. Mussels
+                    are steamed in ouzo, bread is baked with olives and fish is cooked straight from
+                    the sea. </p>
+            </highLight>
+
+            <thingsToDo>
+                <thingToDo>
+                    <title>Acropolis</title>
+                    <telephone> +30 2103210219 </telephone>
+                    <address> Athens, Greece </address>
+                    <gettingThere> Metro: Akropoli </gettingThere>
+                    <moreInfo> http://odysseus.culture.gr </moreInfo>
+                    <openHours> 8am-8pm Apr-Oct, to 5pm Nov-Mar, last entry 30min before closing
+                    </openHours>
+                </thingToDo>
+                <thingToDo>
+                    <title>Meteora</title>
+                    <telephone> +30 2432022649 </telephone>
+                    <address> cnr Kastraki &amp; Kalambaka overlooking the valley of Pinios </address>
+                    <moreInfo> www.gnto.gr </moreInfo>
+                    <openHours> 09:00-13:00 &amp; 15:00-17:00 </openHours>
+                </thingToDo>
+            </thingsToDo>
+            <associations>
+                <siteRefId>site8</siteRefId>
+                <siteRefId>site11</siteRefId>
+            </associations>
+        </travelSight>
+
+        <travelSight id="site7" rank="7" tag="Nature, Adventure, Family">
+            <title>Sydney</title>
+            <description>
+                <p> Is the grass always greener on the other side of the fence? Peek over the
+                    pickets and find out. This vast country is affluent, multicultural and laced
+                    with natural splendour. </p>
+            </description>
+            <sources>
+                <sourceRefId>s07</sourceRefId>
+            </sources>
+            <location country="Australia"/>
+            <pictures>
+                <picture path="sydney1.jpg"/>
+            </pictures>
+
+            <review id="r7">
+                <p> By Charles Rawlings-Way, Meg Worby, Writers: </p>
+                <p> I've been living in this great southern land for 30-something years, and there
+                    are still places I haven't explored. Australia is just so damn big. Even if we
+                    spent the next 30-something years on an endless round-Australia road trip,
+                    there'd still be surprises out there. And that, for a restless road-addict, is a
+                    very comforting reality. </p>
+            </review>
+
+
+            <highLight>
+                <p> Hip Cities </p>
+                <p> Most Australians live along the coast, and most of these folks live in cities –
+                    89% of Australians, in fact. It follows that cities here are a lot of fun.
+                    Sydney is a glamorous collusion of beaches, boutiques and bars. Melbourne is all
+                    arts, alleyways and Aussie Rules football. Brisbane is a subtropical town on the
+                    way up; Adelaide has festive grace and pubby poise. Boomtown Perth breathes West
+                    Coast optimism; Canberra transcends political agendas. While the tropical
+                    northern frontier town of Darwin, and the chilly southern sandstone city of
+                    Hobart, couldn't be more different. </p>
+            </highLight>
+            <highLight>
+                <p> It's a Wide Open Road </p>
+                <p> There's a heckuva lot of tarmac across this wide brown land. From Margaret River
+                    to Cooktown, Jabiru to Dover, the best way to appreciate Australia is to hit the
+                    road. Car hire is relatively affordable, road conditions are generally good, and
+                    beyond the big cities traffic fades away. If you're driving a campervan, you'll
+                    find well-appointed caravan parks in most sizable towns. If you're feeling
+                    adventurous, hire a 4WD and go off-road: Australia's national parks and secluded
+                    corners are custom-made for camping trips down the dirt road. </p>
+            </highLight>
+
+            <thingsToDo>
+                <thingToDo>
+                    <title> Sydney Opera House </title>
+                    <telephone> +61 292507250 </telephone>
+                    <address> Bennelong point, Sydney, Australia </address>
+                    <gettingThere> Train: Circular Quay </gettingThere>
+                    <moreInfo> www.sydneyoperahouse.com </moreInfo>
+                    <openHours> tours 9am-5pm </openHours>
+                </thingToDo>
+            </thingsToDo>
+            <associations>
+                <siteRefId>site11</siteRefId>
+                <siteRefId>site13</siteRefId>
+            </associations>
+        </travelSight>
+
+        <travelSight id="site8" rank="8" tag="Natural; Historical Heritage; Beaches">
+            <title>Cuba</title>
+            <description>
+                <p> Timeworn but magnificent, dilapidated but dignified, fun yet maddeningly
+                    frustrating - Cuba is a country of indefinable magic. </p>
+            </description>
+            <sources>
+                <sourceRefId>s08</sourceRefId>
+            </sources>
+            <location country="Cuba"/>
+            <pictures>
+                <picture path="cuba1.jpg"/>
+            </pictures>
+
+            <review id="r8">
+                <p> By Brendan Sainsbury, Writer: </p>
+                <p> When I think of Cuba, I always think of my first night back in Havana after a
+                    break; the busy atmospheric streets, the snapshots of lives lived out in the
+                    open, and the unmistakable aromas: tropical papaya mixed with tobacco leaf,
+                    petrol and musty carpets. Cuba is a forbidden fruit, a complex country of
+                    head-scratching contradictions, which, however many times you visit, will never
+                    adequately answer all your questions. Most of all I love Cuba's musicality,
+                    robust culture, wonderfully preserved history, and the fact that it can
+                    frustrate you one minute and unexpectedly inspire you the next. </p>
+            </review>
+
+
+            <highLight>
+                <p> Beyond the Beaches </p>
+                <p> Although the attractive arcs of white sand that pepper its north coast are
+                    sublime, explore beyond Cuba's beaches and you’re in a different domain, a land
+                    of fecund forests and crocodile-infested swamps, suburbia-free countryside and
+                    rugged mountains as famous for their revolutionary folklore as for their endemic
+                    species. Cuba, once observed German scientist Alexander von Humboldt, is a kind
+                    of Caribbean Galapagos where contradictory curiosities coexist. </p>
+            </highLight>
+            <highLight>
+                <p> Historical Heritage </p>
+                <p> Meticulously preserved, Cuba’s colonial cities haven’t changed much since
+                    musket-toting pirates stalked the Caribbean. The atmosphere and architecture is
+                    particularly stirring in the Unesco-listed cities – Havana, Trinidad, Cienfuegos
+                    and Camagüey – where grandiose squares and cobbled streets tell erstwhile tales
+                    of opulence and intrigue. Elsewhere many buildings lie ruined and tattered like
+                    aging dowagers waiting for a facelift. With more funds, these heirlooms may yet
+                    emulate the colonial treasures in Havana and Trinidad, further proof that the
+                    safeguarding of Cuba’s historical legacy has been one of the revolution’s
+                    greatest achievements. | </p>
+            </highLight>
+            <thingsToDo>
+                <thingToDo>
+                    <title>Malecon</title>
+                    <address> Havana, Cuba </address>
+                </thingToDo>
+                <thingToDo>
+                    <title>Zoologico de Piedras</title>
+                    <address>Guantanamo, Cuba</address>
+                    <openHours>9am-6am Mon-Sat</openHours>
+                </thingToDo>
+            </thingsToDo>
+            <associations>
+                <siteRefId>site1</siteRefId>
+                <siteRefId>site6</siteRefId>
+            </associations>
+        </travelSight>
+        <travelSight id="site9" rank="9" tag="Iberian Sun; Architecture;">
+            <title>Barcelona</title>
+            <description>
+                <p> Barcelona is an enchanting seaside city with boundless culture, fabled
+                    architecture, and a world-class drinking and dining scene. </p>
+            </description>
+            <sources>
+                <sourceRefId>s09</sourceRefId>
+            </sources>
+            <location country="Spain"/>
+            <pictures>
+                <picture path="barcelona1.jpg"/>
+            </pictures>
+            <review id="r9">
+                <p> By Regis St Louis, Writer: </p>
+                <p> I love the sea, and taking an early-morning jog along the Mediterranean is my
+                    favourite way to start the day. I'm also a bit of a history nerd, and relish
+                    strolling the cobblestone lanes of the Gothic quarter, thinking about all the
+                    people in past centuries who walked these same streets. And then there's the
+                    food and drink – the first-rate tapas bars, the abundant and inexpensive wine,
+                    the superb and reasonably priced multicourse lunches. Add to all this Catalan
+                    creativity (Modernisme, Miró, Dalí), bohemian bars and stunning nearby getaways
+                    and you have, quite simply, one of the world's most captivating cities. | </p>
+            </review>
+            <highLight>
+                <p> Architecture of the Ages </p>
+                <p> Barcelona's architectural treasures span 2000-plus years. Towering temple
+                    columns, ancient city walls and subterranean stone corridors provide a window
+                    into Roman-era Barcino. Fast forward a thousand years to the Middle Ages by
+                    taking a stroll through the shadowy lanes of the Gothic quarter, past tranquil
+                    plazas and soaring 14th-century cathedrals. In other parts of town bloom the
+                    sculptural masterpieces of Modernisme, a mix of ingenious and whimsical
+                    creations by Gaudí and his Catalan architectural contemporaries, for which this
+                    city is so well known. Barcelona has also long inspired artists, including the
+                    likes of Salvador Dalí, Pablo Picasso and Joan Miró, whose works are in bold
+                    display in the city's myriad museums. </p>
+            </highLight>
+            <highLight>
+                <p> Under the Iberian Sun </p>
+                <p> The deep blue Mediterranean beckons. Sun-drenched beaches make a fine backdrop
+                    to a jog, bike ride or long leisurely stroll along the seaside – followed by a
+                    refreshing dip, of course. You can also enjoy the view from out on the water
+                    while kayaking, stand-up paddleboarding or taking it easy on a sunset cruise.
+                    Looming behind the city, the rolling forest-covered Collserola Hills provide a
+                    scenic setting for hiking, mountain biking or just admiring the view. Closer to
+                    the city centre, hilltop Montjuïc offers endless exploring amid botanic and
+                    sculpture gardens, an old castle and first-rate museums with panoramic views at
+                    every turn </p>
+            </highLight>
+            <highLight>
+                <p> A Moveable Feast </p>
+                <p> Barcelona's great artistic traditions don't end at the canvas. The masters of
+                    molecular gastronomy – Albert Adrià, Carles Abellan et al – are part of the long
+                    and celebrated tradition of Catalan cooking. Simple, flavourful ingredients –
+                    seafood, jamón (cured ham), market-fresh produce – are transformed into
+                    remarkable delicacies and then served up in captivating settings. You can feast
+                    on hearty, rich paella at an outdoor table overlooking the sea or step back to
+                    the 1920s at an elegant art nouveau–filled dining room. Barcelona's wide-ranging
+                    palate adds further complexity: Basque-style tapas bars, Galician seafood
+                    taverns, avant-garde Japanese restaurants and sinful chocolate shops are all
+                    essential parts of the culinary landscape. </p>
+            </highLight>
+            <thingsToDo>
+                <thingToDo>
+                    <title>La Rambla</title>
+                    <address> Barcelona, Spain </address>
+                    <gettingThere> Metro: Catalunya, Liceu, Drassanes </gettingThere>
+                </thingToDo>
+                <thingToDo>
+                    <title>La Sagrada Familia</title>
+                    <telephone> +34 932073031 </telephone>
+                    <address> Carrer de Mallorca 401 </address>
+                    <gettingThere> Metro: Sagrada Familia </gettingThere>
+                    <moreInfo> www.sagradafamilia.cat </moreInfo>
+                    <openHours> 9am - 8pm Apr-Sep, to 6pm Oct - Mar </openHours>
+                </thingToDo>
+            </thingsToDo>
+            <associations>
+                <siteRefId>site2</siteRefId>
+                <siteRefId>site12</siteRefId>
+            </associations>
+        </travelSight>
+        <travelSight id="site10" rank="10" tag="Modern; Time Travel; Business; Lifestyle">
+            <title>London</title>
+            <description>
+                <p> One of the world's most visited cities, London has something for everyone: from
+                    history and culture to fine food and good times. </p>
+            </description>
+            <sources>
+                <sourceRefId>s10</sourceRefId>
+            </sources>
+            <location country="UK"/>
+            <pictures>
+                <picture path="london1.jpg"/>
+            </pictures>
+            <review id="r10">
+                <p> By Steve Fallon, Writer: </p>
+                <p> Like most Londoners, I revel in all our familiar landmarks – Big Ben, Tower
+                    Bridge, the murky Thames, the London Eye. I still thank the former government
+                    that made some of the greatest museums and art galleries in the world free to
+                    one and all. The choice of restaurants, bars and clubs is legion, and what’s not
+                    to love about a city with more lush parkland than any other world capital? But
+                    the one thing that sets my adopted city apart from any other is its amazing
+                    tolerance. 'As long as you don’t scare the horses, mate, you’ll be all right
+                    here,’ I was told when I arrived here more than 20 years ago. Guess what… It
+                    still hasn’t happened. </p>
+            </review>
+            <highLight>
+                <p> Time Travel </p>
+                <p> London is immersed in history, with more than its share of mind-blowing
+                    antiquity and historic splendour. London’s buildings are eye-catching milestones
+                    in the city’s unique and compelling biography, and a great many of them – the
+                    Tower of London, Westminster Abbey, Big Ben – are familiar landmarks. There’s
+                    more than enough innovation (the Shard, the London Eye, the planned Garden
+                    Bridge) to put a crackle in the air, but it never drowns out London’s
+                    well-preserved, centuries-old narrative. Architectural grandeur rises up all
+                    around you in the West End, ancient remains dot the City and charming pubs
+                    punctuate the banks of the Thames. Take your pick. </p>
+            </highLight>
+            <highLight>
+                <p> A Tale of Two Cities </p>
+                <p> London is as much about wide-open spaces and leafy escapes as it is
+                    high-density, sight-packed exploration. Central London is where you will find
+                    the major museums, galleries and most iconic sights, but visit Hampstead Heath
+                    or the new Queen Elizabeth Olympic Park to escape the crowds and view the city’s
+                    greener hues up close. Or venture even further out to Kew Gardens, Richmond or
+                    Hampton Court Palace for excellent panoramas of riverside London. </p>
+            </highLight>
+            <thingsToDo>
+                <thingToDo>
+                    <title>National Gallery</title>
+                    <address>Trafalfar Sq WC2</address>
+                    <gettingThere>Tube: Charing Cross</gettingThere>
+                    <moreInfo>www.nationalgallery.org.uk</moreInfo>
+                    <openHours>10am-6am Sat-Thu, to 9pm Fri</openHours>
+                </thingToDo>
+                <thingToDo>
+                    <title>British Museum</title>
+                    <telephone>+44 2073238000</telephone>
+                    <address>Great Russell St</address>
+                    <gettingThere>Tube:britishmuseum.org</gettingThere>
+                    <moreInfo>www.britishmuseum.org</moreInfo>
+                    <openHours>10am-5.30pm Sat-Thu,to8:30pm Fri</openHours>
+                </thingToDo>
+            </thingsToDo>
+            <associations>
+                <siteRefId>site13</siteRefId>
+                <siteRefId>site15</siteRefId>
+            </associations>
+        </travelSight>
+        <travelSight id="site11" rank="11" tag="Natural; Adventure; Outdoor; Island">
+            <title>Maui</title>
+            <description>
+                <p> When it comes to outdoor adventure, Maui wins best in show. Just check out that
+                    zipliner launching into a canopy of green. Or the mountain biker hurtling past
+                    eucalyptus and pine. Hikers have it darn good too, with trails winding through
+                    lava flows and bamboo forests. Along the coast, surfers barrel through waves,
+                    windboarders skim across whitecaps and snorkelers glide beside green turtles.
+                </p>
+            </description>
+            <sources>
+                <sourceRefId>s11</sourceRefId>
+            </sources>
+            <location country="USA"/>
+            <pictures>
+                <picture path="maui1.jpg"/>
+            </pictures>
+            <review id="r11">
+                <p> And we haven't even mentioned Maui's most iconic adventures – all of them
+                    flanked by once-in-a-lifetime backdrops. Along the Road to Hana, lofty
+                    waterfalls plunge into shimmering pools. A mesmerizing sunrise illuminates the
+                    cindery summit of Haleakalā. And the view from Makena Bay? Downright sublime in
+                    winter when kayakers share the sea with frolicking humpback whales. </p>
+            </review>
+
+
+            <highLight>
+                <p> Top-notch restaurants and lodging enhance the island's natural charms. From
+                    scrappy food trucks to white-linen dining rooms, eateries embrace local food and
+                    its traditions. Resorts wow guests with impeccable service and prime seaside
+                    locations. </p>
+            </highLight>
+            <thingsToDo>
+                <thingToDo>
+                    <title>Haleakala National Park</title>
+                </thingToDo>
+                <thingToDo>
+                    <title>The Road to Hana</title>
+                </thingToDo>
+                <thingToDo>
+                    <title>Pacific Whale Foundation</title>
+                    <telephone>+1 8086677447</telephone>
+                    <address>612 Front St, Lahaina USA</address>
+                    <moreInfo>www.pacificwhale.org</moreInfo>
+                    <openHours>reservations 6am-9pm,snorkel tours from 7am</openHours>
+                </thingToDo>
+            </thingsToDo>
+            <associations>
+                <siteRefId>site1</siteRefId>
+                <siteRefId>site8</siteRefId>
+            </associations>
+        </travelSight>
+        <travelSight id="site12" rank="12" tag="Nature, Old Town, Experience, Historical">
+            <title>Prague</title>
+            <description>
+                <p> Prague is the equal of Paris in terms of beauty. Its history goes back a
+                    millennium. And the beer? The best in Europe. </p>
+            </description>
+            <sources>
+                <sourceRefId>s12</sourceRefId>
+            </sources>
+            <location country="Czech Republic"/>
+            <pictures>
+                <picture path="prague1.jpg"/>
+            </pictures>
+            <review id="r12">
+                <p> By Neil Wilson </p>
+                <p> How can you not love a city that has a pub with vinyl cushions on the wall above
+                    the gents' urinal, so you can rest your head while you 'go'? Where you can order
+                    a beer without speaking, simply by placing a beer mat on the table? And where
+                    that beer is probably the best in the world? But it's not just exquisite ale and
+                    a wonderfully relaxed drinking culture that keep bringing me back to Prague –
+                    there's wit and weirdness in equal measure: a public fountain where two figures
+                    pee in a puddle, spelling out literary quotations; a 1950s nuclear bunker hidden
+                    beneath a city-centre hotel; and a cubist lamppost. Quirky doesn't even begin to
+                    describe it. </p>
+            </review>
+            <highLight>
+                <p> Art All Around </p>
+                <p> Prague's art galleries may not have the allure of the Louvre, but Bohemian art
+                    offers much to admire, from the glowing Gothic altarpieces in the Convent of St
+                    Agnes, to the luscious art nouveau of Alfons Mucha, and the magnificent
+                    collection of 20th-century surrealists, cubists and constructivists in the
+                    Veletržní Palác. The weird and witty sculpture of David Černý punctuates
+                    Prague's public spaces, and the city itself offers a smorgasbord of stunning
+                    architecture, from the soaring verticals of Gothic and the exuberance of baroque
+                    to the sensual elegance of art nouveau and the chiselled cheekbones of cubist
+                    facades. </p>
+            </highLight>
+            <highLight>
+                <p> Where Beer is God </p>
+                <p> The best beer in the world just got better. Since the invention of Pilsner
+                    Urquell in 1842, the Czechs have been famous for producing some of the world's
+                    finest brews. But the internationally famous brand names – Urquell, Staropramen
+                    and Budvar – have been equalled, and even surpassed, by a bunch of regional
+                    Czech beers and microbreweries that are catering to a renewed interest in
+                    traditional brewing. Never before have Prague's pubs offered such a wide range
+                    of ales – names you'll now have to get your head around include Kout na Šumavě,
+                    Svijanský Rytíř and Velkopopovický Kozel. </p>
+            </highLight>
+            <highLight>
+                <p> Urban Explorations </p>
+                <p> Prague's maze of cobbled lanes and hidden courtyards is a paradise for the
+                    aimless wanderer, always beckoning you to explore a little further. Just a few
+                    blocks away from the Old Town Square you can stumble across ancient chapels,
+                    unexpected gardens, cute cafes and old-fashioned bars with hardly a tourist in
+                    sight. One of the great joys of the city is its potential for exploration –
+                    neighbourhoods such as Vinohrady and Bubeneč can reward the urban adventurer
+                    with countless memorable cameos, from the setting sun glinting off church domes,
+                    to the strains of Dvořák wafting from an open window. </p>
+            </highLight>
+            <thingsToDo>
+                <thingToDo>
+                    <title>Prague Castle</title>
+                    <telephone>+420 224372423</telephone>
+                    <address>Hradcanske namesti</address>
+                    <gettingThere>Tram:22 Metro:Malostranska</gettingThere>
+                    <moreInfo>www.hrad.cz</moreInfo>
+                    <openHours>grounds 5am-midnight Apr-Oct, 6am-11pm Nov-Mar, gardens 10am-6pm Apr
+                        &amp; Oct, to 7pm May &amp; Sep, to 9pm Jun-Aug, closed Nov-Mar, historic
+                        buildings 9am-5pm Apr-Oct, to 4pm Nov-Mar </openHours>
+                </thingToDo>
+                <thingToDo>
+                    <title>Charles Bridge</title>
+                    <address>Prague, Czech Republic</address>
+                    <gettingThere>Tram: 17, 18 to Karlovy lázně, 12, 20, 22 to Malostranské
+                        náměstí</gettingThere>
+                    <openHours>24r</openHours>
+                </thingToDo>
+                <thingToDo>
+                    <title>Prague Jewishh Museum</title>
+                    <telephone>+420 222 317 191</telephone>
+                    <address>Reservation Centre, U starého hřbitova 3a </address>
+                    <gettingThere>Metro: Staroměstská</gettingThere>
+                    <moreInfo>www.jewishmuseum.cz</moreInfo>
+                    <openHours>9am-6pm Sun-Fri Apr-Oct, to 4.30pm Nov-Mar</openHours>
+                </thingToDo>
+            </thingsToDo>
+            <associations>
+                <siteRefId>site14</siteRefId>
+                <siteRefId>site6</siteRefId>
+            </associations>
+        </travelSight>
+        <travelSight id="site13" rank="13" tag="Adventural; Outdoor; Arts">
+            <title>Vancouver</title>
+            <description>
+                <p> Cool neighborhoods, drink-and-dine hot spots and spectacular vistas: all good
+                    reasons why visitors fall for this lovely lotusland metropolis. \ </p>
+            </description>
+            <sources>
+                <sourceRefId>s13</sourceRefId>
+            </sources>
+            <location country="Canada"/>
+            <pictures>
+                <picture path="vancouver1.jpg"/>
+            </pictures>
+            <review id="r13">
+                <p> By John Lee, Writer: </p>
+                <p> Hummingbirds on my balcony, beaches in Stanley Park, and the annual dusting of
+                    snow on surrounding mountains. Although I moved here from the UK in the 1990s, I
+                    still gape at Vancouver's natural beauty. For me, it's the backdrop that sets
+                    this metropolis apart. But I'm a big-city boy at heart and I've also been
+                    delighted to see Vancouver grow up since I arrived. From amazing (and
+                    great-value) dining to a thriving local art scene, Vancouver continues to move
+                    forward – and I don't just mean the brilliant craft-beer scene (although,
+                    personally, that really helps). </p>
+            </review>
+            <highLight>
+                <p> Grassroots Arts </p>
+                <p> A lack of Guggenheim-sized galleries to make its art-scene obvious means you'll
+                    have to go looking for the city's cultural side, but that's its main appeal.
+                    Vancouver's thriving artistic edge is local, grassroots and neighborhood-sized:
+                    think of it like a locavore movement for culture lovers. Mingle with the
+                    regulars at waterfront Shakespeare shows, electric dance performances, sparkling
+                    theatrical events, toe-tapping live music and a huge range of public art – as
+                    well as a huge open-house art crawl that enlivens East Vancouver every November.
+                </p>
+            </highLight>
+            <highLight>
+                <p> Outdoor Wonderland </p>
+                <p> Those snow-dusted mountains that peek between downtown's glass towers? They're
+                    less than 30 minutes away by car. Vancouverites really can ski in the morning
+                    and hit the beach in the afternoon – although it's more relaxing to chill out
+                    and take your time. The city's North Shore nature doorstep offers snow sports,
+                    mountain biking and leisurely rainforest viewing, while the city itself is
+                    studded with sandy beaches, forest trails, kayaking routes, seawall bike lanes
+                    and Canada's urban green-space jewel, the mighty and highly beloved Stanley
+                    Park. </p>
+            </highLight>
+            <thingsToDo>
+                <thingToDo>
+                    <title>Vancouver Aquarium</title>
+                    <telephone>+1 6046593474</telephone>
+                    <address>845 Avison Way Vancouver, Canada</address>
+                    <gettingThere>Bus19</gettingThere>
+                    <moreInfo>www.vanaqua.org</moreInfo>
+                    <openHours>9:30am-6pm</openHours>
+                </thingToDo>
+                <thingToDo>
+                    <title>Stanley Park</title>
+                    <address>Vancouver, Canada</address>
+                    <gettingThere>Bus 19</gettingThere>
+                    <moreInfo>www.vancouver.ca/parks</moreInfo>
+                </thingToDo>
+            </thingsToDo>
+            <associations>
+                <siteRefId>site2</siteRefId>
+                <siteRefId>site7</siteRefId>
+            </associations>
+        </travelSight>
+        <travelSight id="site14" rank="14" tag="Food; Historical; Inspired">
+            <title>Budapest</title>
+            <description>
+                <p> Straddling the Danube River, with the Buda Hills to the west and the Great Plain
+                    to the east, Budapest is a gem of a city. </p>
+            </description>
+            <sources>
+                <sourceRefId>s14</sourceRefId>
+            </sources>
+            <location country="Hungary"/>
+            <pictures>
+                <picture path="budapest1.jpg"/>
+            </pictures>
+            <review id="r14">
+                <p> By Steve Fallon </p>
+                <p> I love Budapest for all the right reasons – architecture (especially Art
+                    Nouveau), romance (particularly the views from the bridges) and sticky apricot
+                    jam – and some of the wrong ones, too (killer pálinka (fruit brandy), rickety
+                    trolleybuses, and checking out bodies in the Turkish baths). When I first came
+                    to Budapest, I was bowled over by an often sad but confident city whose history
+                    seemed too complex to comprehend, by a beautiful but impenetrable language, and
+                    by a people I thought I’d never know. I stayed on to learn more about all three.
+                </p>
+            </review>
+            <highLight>
+                <p> The Past at Hand </p>
+                <p> They say the past is another country, but it’s always been just around the
+                    corner in Budapest. Witness the bullet holes and shrapnel pockmarks on buildings
+                    from WWII and the 1956 Uprising. There are sad reminders like the poignant Shoes
+                    on the Danube memorial, but ones, too, of hope and reconciliation – like the
+                    sword of the former secret-police building on Andrássy út now beaten into the
+                    ploughshare that is the Terror House, with both sides of the story told. And
+                    there’s joy as much-loved concert halls and theatres are built and renovated,
+                    metro lines extended and busy streets repaved and pedestrianised. </p>
+            </highLight>
+            <highLight>
+                <p> Eat, Drink &amp; Be Magyar </p>
+                <p> There's a lot more to Hungarian food than goulash, and it remains one of the
+                    most sophisticated styles of cooking in Europe. Magyars may exaggerate when they
+                    say that there are three essential world cuisines: French, Chinese and their
+                    own. But Budapest’s reputation as a food capital dates largely from the late
+                    19th and the first half of the 20th century and, despite a fallow period under
+                    communism, the city is once again commanding attention. So, too, are its
+                    excellent wines – from Villány’s big-bodied reds and Somló’s flinty whites to
+                    honey-gold sweet Tokaj. </p>
+            </highLight>
+
+            <thingsToDo>
+                <thingToDo>
+                    <title>Royal Palace</title>
+                    <address>I Szent György tér</address>
+                    <gettingThere>Bus: 16, 16A, 116</gettingThere>
+                </thingToDo>
+                <thingToDo>
+                    <title>Széchenyi Baths</title>
+                    <address>XIV Állatkerti körút 9-11</address>
+                    <gettingThere>Metro: M1 Széchenyi fürdő</gettingThere>
+                    <moreInfo>www.szechenyibath.hu</moreInfo>
+                    <openHours>6am-10pm</openHours>
+                </thingToDo>
+                <thingToDo>
+                    <title>Széchenyi Chain Bridge</title>
+                    <address>Budapest, Hungary</address>
+                    <gettingThere>Bus:16</gettingThere>
+                </thingToDo>
+            </thingsToDo>
+            <associations>
+                <siteRefId>site9</siteRefId>
+                <siteRefId>site10</siteRefId>
+            </associations>
+        </travelSight>
+        <travelSight id="site15" rank="15" tag="Food; Shopping; lifestyle">
+            <title>Hong Kong</title>
+            <description>
+                <p> This enigmatic city of skyscrapers, ancient traditions and heavenly food will
+                    fascinate, whether it's your first visit or your 50th. </p>
+            </description>
+            <sources>
+                <sourceRefId>s15</sourceRefId>
+            </sources>
+            <location country="China"/>
+            <pictures>
+                <picture path="hongkong1.jpg"/>
+            </pictures>
+
+            <review id="r15">
+                <p> By Piera Chen, Writer: </p>
+                <p> I love Hong Kong because it has a complexity that eludes definition, sometimes
+                    even by its own people. I can be soul-searching near the Chinese border,
+                    lunching with Sikhs at a Sikh temple, splurging on a set of kitchen knives,
+                    arguing with bohos about the merits of a dress – all within five hours –
+                    followed by a night of Cantonese opera, tango or karaoke, anywhere I choose.
+                    Hong Kong is so intense and so full of possibilities that I’m glad there’s the
+                    Rule of Law (and an awesome transport system) to stop it from whirling into
+                    chaos. For me, that's pretty darn perfect. </p>
+            </review>
+
+
+            <highLight>
+                <p> Culture </p>
+                <p> Beyond the glass and steel of Hong Kong’s commercial persona, the city also
+                    boasts a vibrant cultural scene that features the eclectic influences of its
+                    Chinese roots, colonial connections and a wondrous pool of homegrown talent.
+                    Here, you’re just as likely to find yourself applauding at Asia’s top film
+                    festival as joining in dawn taichi or reading the couplets of a local poet to
+                    the drumbeat of a dragon boat. Culture could also mean indie music under the
+                    stars, a classy art walk, your first Cantonese opera – not to mention the
+                    exhibitions and events staged year-round at the many museums and concert halls.
+                </p>
+            </highLight>
+            <highLight>
+                <p> Shopping </p>
+                <p> From ready-to-wear Chinese jackets to bespoke kitchen knives, the sheer range
+                    and variety of products on Hong Kong’s shelves is mind-bending. Every whim, need
+                    and pocket is catered for in true enterprising spirit by an equally dazzling
+                    number of venues – swanky malls where the moneyed shop, chic side-street
+                    boutiques, antique stores, gadget bazaars, and a colourful mix of markets where
+                    you can haggle to your heart’s content. The city has no sales tax so prices are
+                    generally attractive to visitors. </p>
+            </highLight>
+
+            <thingsToDo>
+                <thingToDo>
+                    <title>Victoria Peak</title>
+                    <telephone>+852 25220922</telephone>
+                    <address>Hong Kong China</address>
+                    <gettingThere>Bus: Bus 15 from Central, below Exchange Sq Train: Peak Tram Lower
+                        Terminus</gettingThere>
+                    <moreInfo>www.thepeak.com.hk</moreInfo>
+                    <openHours>24hr</openHours>
+
+                </thingToDo>
+                <thingToDo>
+                    <title>Man Mo Temple</title>
+                    <telephone>+852 25400350</telephone>
+                    <address>124-126 Hollywood Rd Sheung Wan</address>
+                    <gettingThere>Bus 26</gettingThere>
+                    <openHours>8am-6pm</openHours>
+                </thingToDo>
+            </thingsToDo>
+            <associations>
+                <siteRefId>site9</siteRefId>
+                <siteRefId>site2</siteRefId>
+            </associations>
+        </travelSight>
+
+    </travelSights>
+    <locations>
+        <location id="l1">
+            <title>CONTINENT</title>
+            <location id="l2">
+                <title>Asia</title>
+                <location id="l3">
+                    <title>Republic of Maldives</title>
+                    <siteRefId>site1</siteRefId>
+                </location>
+                <location id="l4">
+                    <title>China</title>
+                    <siteRefId>site15</siteRefId>
+                    <siteRefId>site5</siteRefId>
+                </location>
+            </location>
+            <location id="l5">
+                <title>Europe</title>
+                <location id="l6">
+                    <title>France</title>
+                        <siteRefId>site2</siteRefId>
+                </location>
+                <location id="l8">
+                    <title>Italy</title>
+                        <siteRefId>site3</siteRefId>
+                </location>
+                <location id="l10">
+                    <title>Finland</title>
+                    
+                        <siteRefId>site4</siteRefId>
+                </location>
+                <location id="l12">
+                    <title>Greece</title>
+                    <siteRefId>site6</siteRefId>
+                </location>
+                <location id="l13">
+                    <title>Spain</title>
+                    
+                        <siteRefId>site9</siteRefId>
+                </location>
+                <location id="l15">
+                    <title>UK</title>
+                    
+                        <siteRefId>site10</siteRefId>
+                </location>
+                <location id="l17">
+                    <title>Hungary</title>
+                    
+                        <siteRefId>site12</siteRefId>
+                </location>
+            </location>
+            <location id="l19">
+                <title>Australia</title>
+                
+                    <siteRefId>site7</siteRefId>
+            </location>
+            <location id="l21">
+                <title>North America</title>
+                <location id="l22">
+                    <title>Cuba</title>
+                    <siteRefId>site8</siteRefId>
+                </location>
+                <location id="l23">
+                    <title>Canada</title>
+                    <siteRefId>site13</siteRefId>
+                </location>
+                <location id="l25">
+                    <title>Maui</title>
+                    <siteRefId>site11</siteRefId>
+                </location>
+            </location>
+         
+        </location>
+            
+        
+    </locations>
+    <sequence>
+        <siteRefId>site1</siteRefId>
+        <siteRefId>site5</siteRefId>
+        <siteRefId>site4</siteRefId>
+        <siteRefId>site9</siteRefId>
+        <siteRefId>site10</siteRefId>
+        <siteRefId>site15</siteRefId>
+        <siteRefId>site2</siteRefId>
+        <siteRefId>site3</siteRefId>
+        <siteRefId>site11</siteRefId>
+        <siteRefId>site12</siteRefId>
+        <siteRefId>site6</siteRefId>
+        <siteRefId>site7</siteRefId>
+        <siteRefId>site8</siteRefId>
+        <siteRefId>site13</siteRefId>
+        <siteRefId>site14</siteRefId>
+    </sequence>
+</travelSightbase>
